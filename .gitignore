@@ -1,0 +1,36 @@
+# python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+*.eggs/
+
+# Data
+data/raw/
+data/processed/
+*.csv
+*.json
+!configs/*.json
+
+# Model weights
+outputs/checkpoints/
+*.pt
+*.bin
+*.safetensors
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# VS Code
+.vscode/
+
+# MLflow
+mlruns/
+
+# Environment
+.env
+*.env
